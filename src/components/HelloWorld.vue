@@ -2,7 +2,7 @@
   <div class="hello">
     <ul class="list-group list-group-flush">
       <li class="list-group-item flex-container" v-for="post in posts" :key="post.data.id">
-        <img :src="post.data.thumbnail" alt="thumbnail">
+        <img :src="post.data.thumbnail" alt="thumbnail" class="thumbnail">
         <div>{{post.data.title}}</div>
         </li>
     </ul>
